@@ -351,6 +351,7 @@ h3 {
 /* New Product */
 
 .section {
+    margin-top: 10rem;
     padding: 5rem 0;
 }
 
@@ -423,6 +424,7 @@ h3 {
 }
 
 .product__header {
+
     height: 20rem;
 }
 
@@ -446,6 +448,7 @@ h3 {
 
 .product:hover .product__header::after,
 .product:hover .product__header span {
+    cursor: pointer;
     visibility: visible;
     opacity: 1;
 }
